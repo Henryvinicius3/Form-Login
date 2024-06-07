@@ -1,0 +1,92 @@
+.container{
+    width: 500px;
+    background-image: linear-gradient(to top left, rgb(28,28,28), rgb(0,0,0));
+    padding: 40px;
+    border-radius: 12px;
+    color: white;
+    margin: 0 15px;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 28px;
+    padding: 15px 0;
+}
+
+.container .input-type{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+}
+
+.input-type input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 40px;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.input-type .icon{
+    position: relative;
+    right: -92%;
+    top: -70%;
+    color: white;
+}
+
+.recall{
+    display: flex;
+    justify-content: space-between;
+}  
+
+input[type="checkbox"]{
+    margin: 0 5px;
+}
+
+.recall a{
+    text-decoration: none;
+    color: white;
+}
+
+.recall a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 100%;
+    padding: 15px 0;
+    font-size: 20px;
+    border-radius: 40px;
+    border: none;
+    outline: none;
+    margin: 20px 0;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(206, 206, 206);
+}
+
+.singin{
+    text-align: center;
+}
+
+.singin a{
+    text-decoration: none;
+    color: white;
+}
+
+.singin span{
+    cursor: pointer;
+}
+
+.singin span:hover{
+    text-decoration: underline;
+}
+
